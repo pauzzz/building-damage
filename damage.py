@@ -15,7 +15,10 @@ warnings.simplefilter('error', SettingWithCopyWarning)
 
 train=pd.read_csv(os.getcwd()+'\\Dataset\\train.csv')
 test=pd.read_csv(os.getcwd()+'\\Dataset\\test.csv')
+owner=pd.read_csv(os.getcwd()+'\\Dataset\\Building_Ownership_Use.csv')
+structure=pd.read_csv(os.getcwd()+'\\Dataset\\Building_Structure.csv')
 
+#forgot to use owner and structure data. WIP
 print(train.head())
 print(test.head())
 
