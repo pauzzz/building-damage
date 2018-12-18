@@ -1,1 +1,1 @@
-print ('hell world')
+print ('King of the Pirates')
